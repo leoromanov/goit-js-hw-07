@@ -1,9 +1,9 @@
 "use strict";
 const inputRef = document.querySelector("#name-input");
 const outputRef = document.querySelector("#name-output");
-let textRef = outputRef.textContent;
 inputRef.addEventListener("input", (event) => {
-  outputRef.textContent = event.target.value;
+  outputRef.textContent =
+    event.target.value !== "" ? event.target.value : "незнакомец";
 });
 
 /*

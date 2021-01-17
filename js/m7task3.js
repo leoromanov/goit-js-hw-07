@@ -34,7 +34,8 @@ images.forEach((image) => {
   );
   newArray.push(liRef);
 });
-// console.log(newArray);
+//
+
 galleryRef.append(...newArray);
 // console.log(galleryRef);
 
